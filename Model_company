@@ -1,7 +1,9 @@
-echo "# Model_company" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Cat-Bellevue/Model_company.git
-git push -u origin main
+## Logistic : The stock of the 5 most ordered products.
+
+SELECT p.productCode, p.productName, SUM(o_d.quantityOrdered) as totalquantityOrdered, p.quantityInStock
+FROM products p
+INNER JOIN orderdetails o_d
+ON p.productCode = o_d.productCode
+GROUP BY p.productName
+ORDER BY totalquantityOrdered Desc LIMIT 0,5;
+

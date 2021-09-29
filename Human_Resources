@@ -1,0 +1,10 @@
+SELECT year(p.paymentdate) as 'Year', 
+		monthname(p.paymentDate) AS 'Month', 
+		CONCAT_WS('   ', UPPER(e.lastname), e.firstname) As 'Name Firstname', 
+        sum(p.amount) AS 'Monthly Turnover'
+	FROM employees e
+    JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
+    JOIN payments p ON p.customerNumber = c.customerNumber
+    GROUP BY year, month, c.salesRepEmployeeNumber
+    ORDER BY year DESC, month ASC, 'Monthly Turnover' DESC
+    ;

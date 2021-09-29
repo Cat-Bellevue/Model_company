@@ -6,5 +6,5 @@ SELECT year(p.paymentdate) as 'Year',
     JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
     JOIN payments p ON p.customerNumber = c.customerNumber
     GROUP BY year, month, c.salesRepEmployeeNumber
-    ORDER BY year DESC, month ASC, 'Monthly Turnover' DESC
+    ORDER BY p.paymentDate DESC, 'Monthly Turnover' DESC
     ;

@@ -1,17 +1,13 @@
-CREATE VIEW best_salesmen AS (
+SELECT * FROM   (
 	SELECT year(p.paymentdate) as `Year`, 
 		monthname(p.paymentDate) AS `Month`, 
 		CONCAT_WS('   ', UPPER(e.lastname), e.firstname) As `Name Firstname`, 
-        sum(p.amount) AS `Monthly Turnover`,
-        c.salesRepEmployeeNumber,
-        ROW_NUMBER() OVER(PARTITION BY year(p.paymentdate), month(p.paymentdate) ORDER BY sum(p.amount) DESC) As `Row number`
-    FROM employees e
-    JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
-    JOIN payments p ON p.customerNumber = c.customerNumber
-    GROUP BY c.salesRepEmployeeNumber, `year`, month(p.paymentDate)
-    ORDER BY `year` DESC, month(p.paymentDate) DESC, sum(p.amount) DESC
-    );
-    
-    SELECT * FROM best_salesmen
-		WHERE `Row number` <= 2;
-  
+        	sum(p.amount) AS `Monthly Turnover`,
+        	ROW_NUMBER() OVER(PARTITION BY year(p.paymentdate), month(p.paymentdate) ORDER BY sum(p.amount) DESC) As `Row number`
+    	FROM employees e
+    		JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
+    		JOIN payments p ON p.customerNumber = c.customerNumber
+    		GROUP BY c.salesRepEmployeeNumber, `year`, month(p.paymentDate)
+    		ORDER BY `year` DESC, month(p.paymentDate) DESC, sum(p.amount) DESC
+    		) AS top_salesmen
+    	WHERE `Row number` <= 2;

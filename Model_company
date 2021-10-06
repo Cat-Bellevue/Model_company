@@ -1,5 +1,6 @@
 ## Logistic : The stock of the 5 most ordered products.
-ROM orderdetails o_d
+SELECT p.productName, p.productVendor, p.quantityInStock, o.orderDate, SUM(o_d.quantityOrdered) as totalquantityOrdered
+FROM orderdetails o_d
 INNER JOIN products p ON o_d.productCode = p.productCode
 INNER JOIN orders o ON o.orderNumber = o_d.orderNumber
 WHERE o.orderDate > '2020-12-31'

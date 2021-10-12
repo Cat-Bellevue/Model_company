@@ -1,13 +1,22 @@
-SELECT * FROM   (
-	SELECT year(p.paymentdate) as `Year`, 
-		monthname(p.paymentDate) AS `Month`, 
-		CONCAT_WS('   ', UPPER(e.lastname), e.firstname) As `Name Firstname`, 
-        	sum(p.amount) AS `Monthly Turnover`,
-        	ROW_NUMBER() OVER(PARTITION BY year(p.paymentdate), month(p.paymentdate) ORDER BY sum(p.amount) DESC) As `Row number`
-    	FROM employees e
-    		JOIN customers c ON e.employeeNumber = c.salesRepEmployeeNumber
-    		JOIN payments p ON p.customerNumber = c.customerNumber
-    		GROUP BY c.salesRepEmployeeNumber, `year`, month(p.paymentDate)
-    		ORDER BY `year` DESC, month(p.paymentDate) DESC, sum(p.amount) DESC
-    		) AS top_salesmen
-    	WHERE `Row number` <= 2;
+### Query to select each month the top 2 sellers 
+
+ SELECT * FROM   (
+	SELECT YEAR(ord.orderdate) AS ordyear
+	, MONTHname(ord.orderdate) AS ordmonthname
+	, CONCAT_WS('   ', UPPER(e.lastname), e.firstname) As `NameFirstname`
+	, SUM(round(od.quantityordered*od.priceeach)) AS CA
+    	, o.country
+    	, o.territory
+    	, (year(ord.orderdate)*100 + month(ord.orderdate)) as dateNumber ##Convert the date (yy+mm) into number, so it is easier to sort the date##
+    	, ROW_NUMBER() OVER(PARTITION BY year(ord.orderdate), month(ord.orderdate) ORDER BY SUM(od.quantityordered*od.priceeach) DESC) As `RowNumber` ##To select only the top 2 by category##
+    FROM orderdetails AS od 
+	JOIN orders as ord ON ord.ordernumber = od.ordernumber
+	JOIN customers AS c ON c.customerNumber = ord.customernumber
+	JOIN employees AS e ON e.employeenumber = c.salesrepemployeenumber
+	JOIN offices AS o ON o.officecode = e.officecode
+    GROUP BY dateNumber, c.salesRepEmployeeNumber
+    ORDER BY dateNumber DESC, CA DESC
+        ) AS top_salesmen
+    WHERE `RowNumber` <= 2;
+    
+    

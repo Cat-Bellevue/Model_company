@@ -1,7 +1,27 @@
-echo "# Model_company" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Cat-Bellevue/Model_company.git
-git push -u origin main
+## Logistic : The stock of the 5 most ordered products.
+SELECT p.productName, p.productVendor, p.quantityInStock, o.orderDate, SUM(o_d.quantityOrdered) as totalquantityOrdered
+FROM orderdetails o_d
+INNER JOIN products p ON o_d.productCode = p.productCode
+INNER JOIN orders o ON o.orderNumber = o_d.orderNumber
+WHERE o.orderDate > '2020-12-31'
+GROUP BY p.productName
+ORDER BY totalquantityOrdered Desc LIMIT 0,5;
+
+## Logistic : Comparaison ventes du top 5 période 19-21
+SELECT PY.*
+FROM (SELECT p.productName, p.productLine, o.orderDate, SUM(o_d.quantityOrdered) as totalquantityOrdered, p.quantityInStock,
+            DATE_FORMAT(o.orderdate, '%y') AS Date_sales,
+            ROW_NUMBER() OVER (PARTITION BY YEAR(o.orderDate) ORDER BY o_d.quantityOrdered  DESC) AS rang
+        FROM orderdetails o_d
+        INNER JOIN products p ON o_d.productCode = p.productCode
+        INNER JOIN orders o ON o.orderNumber = o_d.orderNumber
+      GROUP BY YEAR(o.orderDate)DESC, p.productName
+      HAVING p.productName = '1937 Lincoln Berline'
+    OR p.productName = '1961 Chevrolet Impala'
+    OR p.productName = '1913 Ford Model T Speedster'
+    OR p.productName = '1941 Chevrolet Special Deluxe Cabriolet'
+	OR p.productName = '1992 Ferrari 360 Spider red'
+	ORDER BY p.productName
+    AND YEAR(o.orderDate)DESC, rang ASC
+     ) PY
+     ORDER BY PY.productName, PY.Date_sales

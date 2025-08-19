@@ -1,0 +1,284 @@
+﻿# orderNumber,orderDate,requiredDate,shippedDate,status,comments,customerNumber
+10100,20/07/2019,27/07/2019,24/07/2019,Shipped,,363
+10101,23/07/2019,01/08/2019,25/07/2019,Shipped,Check on availability.,128
+10102,24/07/2019,01/08/2019,28/07/2019,Shipped,,181
+10103,12/08/2019,21/08/2019,16/08/2019,Shipped,,121
+10104,14/08/2019,23/08/2019,15/08/2019,Shipped,,141
+10105,25/08/2019,04/09/2019,26/08/2019,Shipped,,145
+10106,31/08/2019,07/09/2019,04/09/2019,Shipped,,278
+10107,07/09/2019,14/09/2019,09/09/2019,Shipped,Difficult to negotiate with customer. We need more marketing materials,131
+10108,14/09/2019,23/09/2019,19/09/2019,Shipped,,385
+10109,21/09/2019,30/09/2019,22/09/2019,Shipped,Customer requested that FedEx Ground is used for this shipping,486
+10110,29/09/2019,05/10/2019,01/10/2019,Shipped,,187
+10111,06/10/2019,12/10/2019,11/10/2019,Shipped,,129
+10112,05/10/2019,15/10/2019,10/10/2019,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",144
+10113,07/10/2019,14/10/2019,08/10/2019,Shipped,,124
+10114,13/10/2019,19/10/2019,14/10/2019,Shipped,,172
+10115,16/10/2019,24/10/2019,19/10/2019,Shipped,,424
+10116,23/10/2019,31/10/2019,25/10/2019,Shipped,,381
+10117,28/10/2019,05/11/2019,29/10/2019,Shipped,,148
+10118,02/11/2019,10/11/2019,07/11/2019,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,216
+10119,09/11/2019,16/11/2019,13/11/2019,Shipped,,382
+10120,10/11/2019,19/11/2019,12/11/2019,Shipped,,114
+10121,18/11/2019,24/11/2019,24/11/2019,Shipped,,353
+10122,19/11/2019,27/11/2019,24/11/2019,Shipped,,350
+10123,01/12/2019,10/12/2019,03/12/2019,Shipped,,103
+10124,02/12/2019,10/12/2019,06/12/2019,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,112
+10125,02/12/2019,08/12/2019,05/12/2019,Shipped,,114
+10126,09/12/2019,19/12/2019,14/12/2019,Shipped,,458
+10127,15/12/2019,21/12/2019,18/12/2019,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,151
+10128,18/12/2019,24/12/2019,23/12/2019,Shipped,,141
+10129,24/12/2019,30/12/2019,26/12/2019,Shipped,,324
+10130,28/12/2019,05/01/2020,02/01/2020,Shipped,,198
+10131,28/12/2019,06/01/2020,02/01/2020,Shipped,,447
+10132,06/01/2020,12/01/2020,09/01/2020,Shipped,,323
+10133,08/01/2020,15/01/2020,14/01/2020,Shipped,,141
+10134,12/01/2020,21/01/2020,16/01/2020,Shipped,,250
+10135,13/01/2020,23/01/2020,14/01/2020,Shipped,,124
+10136,15/01/2020,25/01/2020,17/01/2020,Shipped,Customer is interested in buying more Ferrari models,242
+10137,21/01/2020,31/01/2020,25/01/2020,Shipped,,353
+10138,18/01/2020,27/01/2020,24/01/2020,Shipped,,496
+10139,27/01/2020,03/02/2020,01/02/2020,Shipped,,282
+10140,04/02/2020,13/02/2020,10/02/2020,Shipped,,161
+10141,12/02/2020,20/02/2020,15/02/2020,Shipped,,334
+10142,19/02/2020,27/02/2020,24/02/2020,Shipped,,124
+10143,21/02/2020,29/02/2020,23/02/2020,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,320
+10144,24/02/2020,03/03/2020,25/02/2020,Shipped,,381
+10145,07/03/2020,15/03/2020,13/03/2020,Shipped,,205
+10146,16/03/2020,26/03/2020,19/03/2020,Shipped,,447
+10147,18/03/2020,25/03/2020,22/03/2020,Shipped,,379
+10148,24/03/2020,03/04/2020,28/03/2020,Shipped,They want to reevaluate their terms agreement with Finance.,276
+10149,25/03/2020,31/03/2020,30/03/2020,Shipped,,487
+10150,01/04/2020,09/04/2020,03/04/2020,Shipped,They want to reevaluate their terms agreement with Finance.,148
+10151,03/04/2020,12/04/2020,06/04/2020,Shipped,,311
+10152,07/04/2020,15/04/2020,13/04/2020,Shipped,,333
+10153,10/04/2020,17/04/2020,15/04/2020,Shipped,,141
+10154,14/04/2020,24/04/2020,20/04/2020,Shipped,,219
+10155,18/04/2020,25/04/2020,19/04/2020,Shipped,,186
+10156,20/04/2020,29/04/2020,23/04/2020,Shipped,,141
+10157,21/04/2020,27/04/2020,26/04/2020,Shipped,,473
+10158,22/04/2020,30/04/2020,27/04/2020,Shipped,,121
+10159,22/04/2020,01/05/2020,28/04/2020,Shipped,,321
+10160,23/04/2020,29/04/2020,29/04/2020,Shipped,,347
+10161,29/04/2020,07/05/2020,02/05/2020,Shipped,,227
+10162,30/04/2020,08/05/2020,01/05/2020,Shipped,,321
+10163,02/05/2020,09/05/2020,06/05/2020,Shipped,,424
+10164,03/05/2020,12/05/2020,05/05/2020,Resolved,"This order was disputed, but resolved on 11/1/2003; Customer doesn't like the colors and precision of the models.",452
+10165,04/05/2020,13/05/2020,08/07/2020,Shipped,This order was on hold because customers's credit limit had been exceeded. Order will ship when payment is received,148
+10166,03/05/2020,12/05/2020,09/05/2020,Shipped,,462
+10167,05/05/2020,12/05/2020,,Cancelled,Customer called to cancel. The warehouse was notified in time and the order didn't ship. They have a new VP of Sales and are shifting their sales model. Our VP of Sales should contact them.,448
+10168,10/05/2020,16/05/2020,14/05/2020,Shipped,,161
+10169,17/05/2020,27/05/2020,22/05/2020,Shipped,,276
+10170,17/05/2020,25/05/2020,20/05/2020,Shipped,,452
+10171,18/05/2020,26/05/2020,20/05/2020,Shipped,,233
+10172,18/05/2020,27/05/2020,24/05/2020,Shipped,,175
+10173,18/05/2020,28/05/2020,22/05/2020,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",278
+10174,19/05/2020,28/05/2020,23/05/2020,Shipped,,333
+10175,19/05/2020,27/05/2020,22/05/2020,Shipped,,324
+10176,19/05/2020,28/05/2020,25/05/2020,Shipped,,386
+10177,20/05/2020,30/05/2020,25/05/2020,Shipped,,344
+10178,21/05/2020,29/05/2020,23/05/2020,Shipped,Custom shipping instructions sent to warehouse,242
+10179,24/05/2020,30/05/2020,26/05/2020,Cancelled,Customer cancelled due to urgent budgeting issues. Must be cautious when dealing with them in the future. Since order shipped already we must discuss who would cover the shipping charges.,496
+10180,24/05/2020,01/06/2020,27/05/2020,Shipped,,171
+10181,25/05/2020,01/06/2020,28/05/2020,Shipped,,167
+10182,25/05/2020,03/06/2020,31/05/2020,Shipped,,124
+10183,26/05/2020,04/06/2020,28/05/2020,Shipped,We need to keep in close contact with their Marketing VP. He is the decision maker for all their purchases.,339
+10184,27/05/2020,04/06/2020,02/06/2020,Shipped,,484
+10185,27/05/2020,03/06/2020,02/06/2020,Shipped,,320
+10186,27/05/2020,02/06/2020,31/05/2020,Shipped,They want to reevaluate their terms agreement with the VP of Sales,489
+10187,28/05/2020,06/06/2020,29/05/2020,Shipped,,211
+10188,31/05/2020,08/06/2020,06/06/2020,Shipped,,167
+10189,31/05/2020,07/06/2020,06/06/2020,Shipped,They want to reevaluate their terms agreement with Finance.,205
+10190,01/06/2020,11/06/2020,02/06/2020,Shipped,,141
+10191,02/06/2020,12/06/2020,06/06/2020,Shipped,We must be cautions with this customer. Their VP of Sales resigned. Company may be heading down.,259
+10192,02/06/2020,11/06/2020,07/06/2020,Shipped,,363
+10193,03/06/2020,10/06/2020,09/06/2020,Shipped,,471
+10194,07/06/2020,14/06/2020,08/06/2020,Shipped,,146
+10195,07/06/2020,13/06/2020,10/06/2020,Shipped,,319
+10196,08/06/2020,15/06/2020,13/06/2020,Shipped,,455
+10197,08/06/2020,14/06/2020,13/06/2020,Shipped,Customer inquired about remote controlled models and gold models.,216
+10198,09/06/2020,18/06/2020,15/06/2020,Shipped,,385
+10199,13/06/2020,22/06/2020,18/06/2020,Shipped,,475
+10200,13/06/2020,21/06/2020,18/06/2020,Shipped,,211
+10201,13/06/2020,23/06/2020,14/06/2020,Shipped,,129
+10202,14/06/2020,21/06/2020,18/06/2020,Shipped,,357
+10203,14/06/2020,23/06/2020,19/06/2020,Shipped,,141
+10204,14/06/2020,22/06/2020,16/06/2020,Shipped,,151
+10205,15/06/2020,21/06/2020,19/06/2020,Shipped, I need all the information I can get on our competitors.,141
+10206,17/06/2020,25/06/2020,20/06/2020,Shipped,Can we renegotiate this one?,202
+10207,21/06/2020,29/06/2020,23/06/2020,Shipped,Check on availability.,495
+10208,15/07/2020,24/07/2020,17/07/2020,Shipped,,146
+10209,22/07/2020,28/07/2020,25/07/2020,Shipped,,347
+10210,25/07/2020,04/08/2020,02/08/2020,Shipped,,177
+10211,28/07/2020,07/08/2020,31/07/2020,Shipped,,406
+10212,29/07/2020,06/08/2020,31/07/2020,Shipped,,141
+10213,04/08/2020,10/08/2020,09/08/2020,Shipped,Difficult to negotiate with customer. We need more marketing materials,489
+10214,08/08/2020,17/08/2020,11/08/2020,Shipped,,458
+10215,11/08/2020,21/08/2020,14/08/2020,Shipped,Customer requested that FedEx Ground is used for this shipping,475
+10216,15/08/2020,23/08/2020,17/08/2020,Shipped,,256
+10217,17/08/2020,27/08/2020,19/08/2020,Shipped,,166
+10218,22/08/2020,29/08/2020,24/08/2020,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",473
+10219,23/08/2020,30/08/2020,25/08/2020,Shipped,,487
+10220,25/08/2020,01/09/2020,29/08/2020,Shipped,,189
+10221,31/08/2020,08/09/2020,01/09/2020,Shipped,,314
+10222,01/09/2020,09/09/2020,02/09/2020,Shipped,,239
+10223,02/09/2020,10/09/2020,06/09/2020,Shipped,,114
+10224,03/09/2020,13/09/2020,08/09/2020,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,171
+10225,04/09/2020,12/09/2020,06/09/2020,Shipped,,298
+10226,08/09/2020,17/09/2020,13/09/2020,Shipped,,239
+10227,13/09/2020,23/09/2020,19/09/2020,Shipped,,146
+10228,21/09/2020,29/09/2020,24/09/2020,Shipped,,173
+10229,22/09/2020,01/10/2020,23/09/2020,Shipped,,124
+10230,26/09/2020,05/10/2020,01/10/2020,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,128
+10231,30/09/2020,07/10/2020,06/10/2020,Shipped,,344
+10232,01/10/2020,11/10/2020,06/10/2020,Shipped,,240
+10233,10/10/2020,16/10/2020,14/10/2020,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,328
+10234,11/10/2020,17/10/2020,14/10/2020,Shipped,,412
+10235,14/10/2020,24/10/2020,18/10/2020,Shipped,,260
+10236,15/10/2020,23/10/2020,20/10/2020,Shipped,,486
+10237,17/10/2020,24/10/2020,22/10/2020,Shipped,,181
+10238,21/10/2020,28/10/2020,22/10/2020,Shipped,,145
+10239,24/10/2020,02/11/2020,29/10/2020,Shipped,,311
+10240,25/10/2020,01/11/2020,01/11/2020,Shipped,,177
+10241,25/10/2020,01/11/2020,31/10/2020,Shipped,,209
+10242,01/11/2020,09/11/2020,06/11/2020,Shipped,Customer is interested in buying more Ferrari models,456
+10243,07/11/2020,14/11/2020,09/11/2020,Shipped,,495
+10244,10/11/2020,20/11/2020,15/11/2020,Shipped,,141
+10245,15/11/2020,23/11/2020,20/11/2020,Shipped,,455
+10246,16/11/2020,24/11/2020,17/11/2020,Shipped,,141
+10247,16/11/2020,22/11/2020,19/11/2020,Shipped,,334
+10248,18/11/2020,25/11/2020,,Cancelled,Order was mistakenly placed. The warehouse noticed the lack of documentation.,131
+10249,19/11/2020,28/11/2020,22/11/2020,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,173
+10250,22/11/2020,30/11/2020,26/11/2020,Shipped,,450
+10251,29/11/2020,05/12/2020,05/12/2020,Shipped,,328
+10252,07/12/2020,16/12/2020,10/12/2020,Shipped,,406
+10253,13/12/2020,21/12/2020,14/12/2020,Cancelled,"Customer disputed the order and we agreed to cancel it. We must be more cautions with this customer going forward, since they are very hard to please. We must cover the shipping fees.",201
+10254,15/12/2020,25/12/2020,16/12/2020,Shipped,Customer requested that DHL is used for this shipping,323
+10255,16/12/2020,24/12/2020,21/12/2020,Shipped,,209
+10256,20/12/2020,28/12/2020,22/12/2020,Shipped,,145
+10257,26/12/2020,05/01/2021,27/12/2020,Shipped,,450
+10258,27/12/2020,06/01/2021,04/01/2021,Shipped,,398
+10259,27/12/2020,03/01/2021,29/12/2020,Shipped,,166
+10260,28/12/2020,03/01/2021,,Cancelled,Customer heard complaints from their customers and called to cancel this order. Will notify the Sales Manager.,357
+10261,29/12/2020,06/01/2021,03/01/2021,Shipped,,233
+10262,05/01/2021,12/01/2021,,Cancelled,This customer found a better offer from one of our competitors. Will call back to renegotiate.,141
+10263,09/01/2021,15/01/2021,13/01/2021,Shipped,,175
+10264,11/01/2021,17/01/2021,12/01/2021,Shipped,Customer will send a truck to our local warehouse on 7/1/2004,362
+10265,13/01/2021,20/01/2021,18/01/2021,Shipped,,471
+10266,17/01/2021,25/01/2021,21/01/2021,Shipped,,386
+10267,18/01/2021,28/01/2021,20/01/2021,Shipped,,151
+10268,23/01/2021,29/01/2021,25/01/2021,Shipped,,412
+10269,27/01/2021,02/02/2021,29/01/2021,Shipped,,382
+10270,30/01/2021,07/02/2021,04/02/2021,Shipped,Can we renegotiate this one?,282
+10271,31/01/2021,09/02/2021,03/02/2021,Shipped,,124
+10272,31/01/2021,06/02/2021,02/02/2021,Shipped,,157
+10273,01/02/2021,08/02/2021,02/02/2021,Shipped,,314
+10274,01/02/2021,09/02/2021,02/02/2021,Shipped,,379
+10275,03/02/2021,13/02/2021,09/02/2021,Shipped,,119
+10276,13/02/2021,22/02/2021,19/02/2021,Shipped,,204
+10277,15/02/2021,23/02/2021,16/02/2021,Shipped,,148
+10278,17/02/2021,27/02/2021,20/02/2021,Shipped,,112
+10279,20/02/2021,02/03/2021,26/02/2021,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",141
+10280,28/02/2021,10/03/2021,02/03/2021,Shipped,,249
+10281,02/03/2021,11/03/2021,06/03/2021,Shipped,,157
+10282,03/03/2021,09/03/2021,05/03/2021,Shipped,,124
+10283,03/03/2021,13/03/2021,06/03/2021,Shipped,,260
+10284,04/03/2021,12/03/2021,09/03/2021,Shipped,Custom shipping instructions sent to warehouse,299
+10285,10/03/2021,18/03/2021,14/03/2021,Shipped,,286
+10286,11/03/2021,20/03/2021,15/03/2021,Shipped,,172
+10287,13/03/2021,20/03/2021,15/03/2021,Shipped,,298
+10288,15/03/2021,25/03/2021,19/03/2021,Shipped,,166
+10289,17/03/2021,27/03/2021,18/03/2021,Shipped,We need to keep in close contact with their Marketing VP. He is the decision maker for all their purchases.,167
+10290,21/03/2021,29/03/2021,27/03/2021,Shipped,,198
+10291,22/03/2021,31/03/2021,28/03/2021,Shipped,,448
+10292,22/03/2021,01/04/2021,25/03/2021,Shipped,They want to reevaluate their terms agreement with Finance.,131
+10293,23/03/2021,01/04/2021,28/03/2021,Shipped,,249
+10294,24/03/2021,31/03/2021,28/03/2021,Shipped,,204
+10295,24/03/2021,31/03/2021,28/03/2021,Shipped,They want to reevaluate their terms agreement with Finance.,362
+10296,29/03/2021,05/04/2021,30/03/2021,Shipped,,415
+10297,30/03/2021,05/04/2021,04/04/2021,Shipped,We must be cautions with this customer. Their VP of Sales resigned. Company may be heading down.,189
+10298,10/04/2021,18/04/2021,14/04/2021,Shipped,,103
+10299,13/04/2021,23/04/2021,14/04/2021,Shipped,,186
+10300,16/04/2020,25/04/2020,21/04/2020,Shipped,,128
+10301,17/04/2020,27/04/2020,20/04/2020,Shipped,,299
+10302,18/04/2020,28/04/2020,19/04/2020,Shipped,,201
+10303,19/04/2021,27/04/2021,22/04/2021,Shipped,Customer inquired about remote controlled models and gold models.,484
+10304,24/04/2021,03/05/2021,30/04/2021,Shipped,,256
+10305,26/04/2021,05/05/2021,28/04/2021,Shipped,Check on availability.,286
+10306,27/04/2021,04/05/2021,30/04/2021,Shipped,,187
+10307,27/04/2021,06/05/2021,03/05/2021,Shipped,,339
+10308,28/04/2021,07/05/2021,03/05/2021,Shipped,Customer requested that FedEx Ground is used for this shipping,319
+10309,28/04/2021,07/05/2021,01/05/2021,Shipped,,121
+10310,29/04/2021,07/05/2021,01/05/2021,Shipped,,259
+10311,29/04/2021,06/05/2021,03/05/2021,Shipped,Difficult to negotiate with customer. We need more marketing materials,141
+10312,04/05/2021,10/05/2021,06/05/2021,Shipped,,124
+10313,05/05/2021,11/05/2021,08/05/2021,Shipped,Customer requested that FedEx Ground is used for this shipping,202
+10314,05/05/2021,15/05/2021,06/05/2021,Shipped,,227
+10315,12/05/2021,22/05/2021,13/05/2021,Shipped,,119
+10316,15/05/2021,23/05/2021,21/05/2021,Shipped,"Customer requested that ad materials (such as posters, pamphlets) be included in the shippment",240
+10317,16/05/2021,26/05/2021,22/05/2021,Shipped,,161
+10318,16/05/2021,23/05/2021,21/05/2021,Shipped,,157
+10319,17/05/2021,25/05/2021,20/05/2021,Shipped,Customer requested that DHL is used for this shipping,456
+10320,17/05/2021,27/05/2021,21/05/2021,Shipped,,144
+10321,18/05/2021,26/05/2021,21/05/2021,Shipped,,462
+10322,18/05/2021,26/05/2021,24/05/2021,Shipped,Customer has worked with some of our vendors in the past and is aware of their MSRP,363
+10323,19/05/2021,26/05/2021,23/05/2021,Shipped,,128
+10324,19/05/2021,25/05/2021,22/05/2021,Shipped,,181
+10325,19/05/2021,27/05/2021,22/05/2021,Shipped,,121
+10326,23/05/2021,30/05/2021,24/05/2021,Shipped,,144
+10327,24/05/2021,02/06/2021,27/05/2021,Resolved,Order was disputed and resolved on 12/1/04. The Sales Manager was involved. Customer claims the scales of the models don't match what was discussed.,145
+10328,26/05/2021,04/06/2021,01/06/2021,Shipped,Customer very concerned about the exact color of the models. There is high risk that he may dispute the order because there is a slight color mismatch,278
+10329,29/05/2021,07/06/2021,30/05/2021,Shipped,,131
+10330,30/05/2021,08/06/2021,04/06/2021,Shipped,,385
+10331,31/05/2021,06/06/2021,06/06/2021,Shipped,Customer requested special shippment. The instructions were passed along to the warehouse,486
+10332,31/05/2021,08/06/2021,01/06/2021,Shipped,,187
+10333,01/06/2021,10/06/2021,03/06/2021,Shipped,,129
+10334,02/06/2021,11/06/2021,,On Hold,The outstaniding balance for this customer exceeds their credit limit. Order will be shipped when a payment is received.,144
+10335,02/06/2021,12/06/2021,06/06/2021,Shipped,,124
+10336,03/06/2021,09/06/2021,07/06/2021,Shipped,Customer requested that DHL is used for this shipping,172
+10337,04/06/2021,13/06/2021,09/06/2021,Shipped,,424
+10338,05/06/2021,15/06/2021,10/06/2021,Shipped,,381
+10339,06/06/2021,13/06/2021,13/06/2021,Shipped,,398
+10340,07/06/2021,14/06/2021,08/06/2021,Shipped,Customer is interested in buying more Ferrari models,216
+10341,07/06/2021,14/06/2021,12/06/2021,Shipped,,382
+10342,07/06/2021,14/06/2021,12/06/2021,Shipped,,114
+10343,07/06/2021,14/06/2021,09/06/2021,Shipped,,353
+10344,08/06/2021,15/06/2021,12/06/2021,Shipped,,350
+10345,08/06/2021,14/06/2021,09/06/2021,Shipped,,103
+10346,12/06/2021,18/06/2021,13/06/2021,Shipped,,112
+10347,12/06/2021,20/06/2021,13/06/2021,Shipped,Can we deliver the new Ford Mustang models by end-of-quarter?,114
+10348,15/05/2021,22/05/2021,19/05/2021,Shipped,,458
+10349,14/06/2021,20/06/2021,16/06/2021,Shipped,,151
+10350,15/06/2021,21/06/2021,18/06/2021,Shipped,,141
+10351,16/06/2021,24/06/2021,20/06/2021,Shipped,,324
+10352,16/06/2021,25/06/2021,22/06/2021,Shipped,,198
+10353,17/06/2021,24/06/2021,18/06/2021,Shipped,,447
+10354,17/06/2021,23/06/2021,18/06/2021,Shipped,,323
+10355,20/06/2021,27/06/2021,26/06/2021,Shipped,,141
+10356,22/06/2021,28/06/2021,25/06/2021,Shipped,,250
+10357,23/06/2021,29/06/2021,27/06/2021,Shipped,,124
+10358,23/06/2021,29/06/2021,29/06/2021,Shipped,Customer requested that DHL is used for this shipping,141
+10359,28/06/2021,06/07/2021,01/07/2021,Shipped,,353
+10360,29/06/2021,05/07/2021,01/07/2021,Shipped,,496
+10361,30/06/2021,07/07/2021,03/07/2021,Shipped,,282
+10362,19/07/2021,30/07/2021,24/07/2021,Shipped,,161
+10363,20/07/2021,26/07/2021,24/07/2021,Shipped,,334
+10364,20/07/2021,31/07/2021,23/07/2021,Shipped,,350
+10365,21/07/2021,01/08/2021,25/07/2021,Shipped,,320
+10366,24/07/2021,02/08/2021,26/07/2021,Shipped,,381
+10367,26/07/2021,04/08/2021,30/07/2021,Resolved,This order was disputed and resolved on 2/1/2005. Customer claimed that container with shipment was damaged. FedEx's investigation proved this wrong.,205
+10368,02/08/2021,10/08/2021,07/08/2021,Shipped,Can we renegotiate this one?,124
+10369,03/08/2021,11/08/2021,07/08/2021,Shipped,,379
+10370,03/08/2021,15/08/2021,08/08/2021,Shipped,,276
+10371,06/08/2021,17/08/2021,08/08/2021,Shipped,,124
+10372,09/08/2021,19/08/2021,11/08/2021,Shipped,,398
+10373,14/08/2021,22/08/2021,20/08/2021,Shipped,,311
+10374,16/08/2021,23/08/2021,17/08/2021,Shipped,,333
+10375,17/08/2021,24/08/2021,20/08/2021,Shipped,,119
+10376,22/08/2021,01/09/2021,27/08/2021,Shipped,,219
+10377,23/08/2021,04/09/2021,26/08/2021,Shipped,"Cautious optimism. We have happy customers here, if we can keep them well stocked.  I need all the information I can get on the planned shippments of Porches",186
+10378,24/08/2021,01/09/2021,25/08/2021,Shipped,,141
+10379,24/08/2021,01/09/2021,25/08/2021,Shipped,,141
+10380,30/08/2021,07/09/2021,01/09/2021,Shipped,,141
+10381,31/08/2021,08/09/2021,01/09/2021,Shipped,,321
+10382,31/08/2021,06/09/2021,01/09/2021,Shipped,Custom shipping instructions sent to warehouse,124
